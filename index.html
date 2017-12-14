@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to Node and MongoDB</title>
+    </head>
+
+    <body>
+        <h1>Register a user</h1>
+        <form method="post" action="/addname">
+            <label>Enter Your Name</label><br>
+            <input type="text" name="firstName" placeholder="Enter first name..." required>
+            <input type="text" name="lastName" placeholder="Enter last name..." required>
+            <input type="text" name="username" placeholder="Enter desire username of login" required>
+            <input type="password" name="password" placeholder="Enter the password" required>
+            <input type="text" name="address" placeholder="Enter the address" required>
+            <input type="submit" value="Add Name">
+        </form>
+
+        <h1>Login</h1>
+        <form method="post" action="/login">
+            <label>Enter details</label><br>
+            <input type="text" name="loginun" placeholder="Enter desire username of login" required>
+            <input type="password" name="loginpass" placeholder="Enter the password" required>
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>
